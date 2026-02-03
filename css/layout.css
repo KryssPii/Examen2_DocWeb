@@ -25,22 +25,27 @@ header {
    -------------------------------------------- */
 section#introduction {
    font-family: hamburg_hand, Helvetica, sans-serif;
+
    h1 {
       font-variation-settings: var(--fs-xxl);
    }
-   h2{
+
+   h2 {
       font-variation-settings: var(--fs-xl);
    }
-   p{
+
+   p {
       width: 65%;
    }
-   img{
+
+   img {
       top: -20vw;
       margin-top: 20vw;
       position: relative;
       width: 90%;
    }
-   img#background{
+
+   img#background {
       height: 120vh;
       width: 100%;
       object-fit: cover;
@@ -51,6 +56,19 @@ section#introduction {
 /* --------------------------------------------
    Description Section
    -------------------------------------------- */
+section#description {
+   display: grid;
+   grid-area: 'a, b';
+   grid-template-columns: repeat(2, 1fr);
+
+   h1 {
+      font-family: hamburg_hand, Helvetica, sans-serif;
+      font-variation-settings: var(--fs-base);
+   }
+   ul>li{
+      font-family: suisse_intl, Helvetica, sans-serif;
+   }
+}
 
 /* --------------------------------------------
    Shop Section
