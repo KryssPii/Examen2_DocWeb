@@ -24,7 +24,11 @@ header {
    Introduction Section
    -------------------------------------------- */
 section#introduction {
-   font-family: hamburg_hand, Helvetica, sans-serif;
+   div#text {
+      font-family: hamburg_hand, Helvetica, sans-serif;
+      margin: var(--spacing);
+   }
+
 
    h1 {
       font-variation-settings: var(--fs-xxl);
@@ -40,14 +44,14 @@ section#introduction {
 
    }
 
-   img {
+   div#relative img {
       top: -20vw;
       margin-top: 20vw;
       position: relative;
       width: 90%;
    }
 
-   img#background {
+   div#background img {
       height: 120vh;
       width: 100%;
       object-fit: cover;
@@ -60,7 +64,7 @@ section#introduction {
    -------------------------------------------- */
 section#description {
    display: grid;
-   grid-area: 'a, b';
+   grid-template-areas: 'a, b';
    grid-template-columns: repeat(2, 1fr);
 
 
@@ -72,11 +76,21 @@ section#description {
    ul>li {
       font-family: suisse_intl, Helvetica, sans-serif;
    }
+
+
 }
 
 /* --------------------------------------------
    Shop Section
    -------------------------------------------- */
+@media screen and (min-width: 700px) {
+   section#shop {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+   }
+}
+
 section#shop {
    margin-bottom: calc(var(--spacing) * 2);
    line-height: 0.9;
@@ -87,6 +101,9 @@ section#shop {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
       gap: var(--spacing);
+
+
+
    }
 
    h1 {
