@@ -36,6 +36,8 @@ section#introduction {
 
    p {
       width: 65%;
+      font-family: suisse_intl, Helvetica, sans-serif;
+
    }
 
    img {
@@ -61,11 +63,13 @@ section#description {
    grid-area: 'a, b';
    grid-template-columns: repeat(2, 1fr);
 
+
    h1 {
       font-family: hamburg_hand, Helvetica, sans-serif;
       font-variation-settings: var(--fs-base);
    }
-   ul>li{
+
+   ul>li {
       font-family: suisse_intl, Helvetica, sans-serif;
    }
 }
@@ -75,6 +79,21 @@ section#description {
    -------------------------------------------- */
 section#shop {
    margin-bottom: calc(var(--spacing) * 2);
+   line-height: 0.9;
+
+   div.articles {
+      margin: var(--spacing);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: var(--spacing);
+   }
+
+   h1 {
+      font-family: hamburg_hand, Helvetica, sans-serif;
+      font-variation-settings: var(--fs-base);
+
+   }
 
    .articles {
 
