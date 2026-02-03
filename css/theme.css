@@ -24,6 +24,9 @@
    -------------------------------------------- */
 body {
     background: var(--color-light);
+    .sperator{
+        border-bottom: solid 1px;
+    }
 }
 .secondary-background{
     background-color: var(--color-secondary);
