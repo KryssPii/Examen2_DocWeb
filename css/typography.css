@@ -1,0 +1,16 @@
+/* ============================================
+   TYPOGRAPHY STYLES
+   ============================================ */
+
+
+/* Shop Section */
+section#shop {
+    h1 {
+        line-height: 0.9;
+    }
+
+    h2 {
+        font-size: var(--fs-base);
+        color: var(--color-highlight);
+    }
+}

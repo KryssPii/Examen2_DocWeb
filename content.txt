@@ -1,0 +1,43 @@
+/*** INTRODUCTION ***/
+Infinite Jets
+Multi-Voice Synth
+
+A suite of expressive effects to transform your instrument in new and exciting ways. Create lush and
+ambient textures that seamlessly fade from one chord to the next.
+
+/*** Description ***/
+Features: 
+- Two independent channels of sampling, allowing for infinite sustain of two different notes or chords at a time
+- Samplers can be triggered automatically by note attack or in manual mode via footswitch
+- 4 separate effect styles (Blur, Synth, Glitch, and Swell)
+- 10 preset variations
+- 2 User Save slots
+- Envelope Shape control, for changing the attack and decay characteristics of sampled notes
+Dimension control, for manipulating parameters unique to each effect
+- Record and Save Knob Movements
+- Internal LFO and Envelope Generators for control of Dimension and sampling channel volume
+
+Resources:
+User Manual
+Videos
+Support
+
+
+/*** Footer ***/
+Effects
+Chroma Console
+Microcosm
+Infinite Jets
+Dream Sequence
+
+Company
+Support
+Artists
+Jobs
+About Us
+
+Join our Newsletter
+Subscribe to our mailing list for the latest on new products, firmware updates, and more.
+Submit
+
+© 2026 Hologram Electronics 
