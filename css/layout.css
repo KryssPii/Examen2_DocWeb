@@ -106,3 +106,64 @@ section#shop {
 /* --------------------------------------------
    Footer
    -------------------------------------------- */
+footer {
+   display: grid;
+   grid-template-areas: "a a"
+      "b c"
+      "d d"
+      "e e";
+
+   h2 {
+      font-family: hamburg_hand, Helvetica, sans-serif;
+      font-variation-settings: var(--fs-base);
+   }
+
+   section#footer--logo {
+      padding: var(--spacing);
+      grid-area: a;
+
+      img {
+         width: 250px;
+      }
+   }
+
+
+   div#Effects {
+      grid-area: b;
+      padding: var(--spacing);
+
+      li {
+
+         list-style: none;
+      }
+   }
+
+   div#company {
+      grid-area: c;
+      padding: var(--spacing);
+
+      li {
+
+         list-style: none;
+      }
+   }
+
+   div#formular {
+      grid-area: d;
+
+      input {
+         background-color: none;
+         border-radius: 15px 15px 15px 15px;
+      }
+   }
+
+   p {
+      grid-area: e;
+      padding: var(--spacing);
+   }
+}
+
+footer>div {
+   font-family: suisse_intl, Helvetica, sans-serif;
+   font-variation-settings: var(--fs-sm);
+}
