@@ -1,7 +1,14 @@
 /* ============================================
    TYPOGRAPHY STYLES
    ============================================ */
-
+@font-face {
+    font-family: 'hamburh_hand';
+    src: url('../fonts/hamburg_hand.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'suisse_intl';
+    src: url('../fonts/suisse_intl.woff2') format("woff2");
+}
 
 /* Shop Section */
 section#shop {
