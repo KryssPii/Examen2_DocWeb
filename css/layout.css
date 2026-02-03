@@ -44,6 +44,12 @@ section#introduction {
 
    }
 
+   div#background img {
+      height: 120vh;
+      width: 100%;
+      object-fit: cover;
+   }
+
    div#relative img {
       top: -20vw;
       margin-top: 20vw;
@@ -51,11 +57,6 @@ section#introduction {
       width: 90%;
    }
 
-   div#background img {
-      height: 120vh;
-      width: 100%;
-      object-fit: cover;
-   }
 }
 
 
