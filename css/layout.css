@@ -2,9 +2,21 @@
    LAYOUT STYLES
    ============================================ */
 
+
 /* --------------------------------------------
    Header
    -------------------------------------------- */
+header {
+   padding-top: calc(var(--spacing)*2);
+   div{
+      justify-items: center;
+      margin-top: var(--spacing);
+   }
+   img {
+      width: 250px;
+      
+   }
+}
 
 /* --------------------------------------------
    Introduction Section
@@ -18,13 +30,14 @@
    Shop Section
    -------------------------------------------- */
 section#shop {
-    margin-bottom: calc(var(--spacing) * 2);
-    .articles {
+   margin-bottom: calc(var(--spacing) * 2);
 
-        .info {
-            padding: var(--spacing)
-        }
-    }
+   .articles {
+
+      .info {
+         padding: var(--spacing)
+      }
+   }
 }
 
 /* --------------------------------------------

@@ -12,11 +12,11 @@
     --fs-xxl: clamp(2.44rem, 4.17vi + 1.4rem, 4.74rem);
     --fs-xxxl: clamp(3.05rem, 5.93vi + 1.57rem, 6.31rem);
     /* Propriété sur-mesure */
-    --color-light: color (#eaeaea);
-    --color-dark: color(#000000); 
-    --color-secondary: color(#4CC9E1);
-    --color-highlight: color (#EF372B);
-    --spacing: 1rem; 
+    --color-light: #eaeaea;
+    --color-dark: #000000;
+    --color-secondary: #4CC9E1;
+    --color-highlight: #EF372B;
+    --spacing: 1rem;
 }
 
 /* --------------------------------------------
@@ -25,7 +25,14 @@
 body {
     background: var(--color-light);
 }
-
+.secondary-background{
+    background-color: var(--color-secondary);
+    color: var(--color-highlight);
+}
+.dark-background{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
 /* --------------------------------------------
    Article Styles
    -------------------------------------------- */
