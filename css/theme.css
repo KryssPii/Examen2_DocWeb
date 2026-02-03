@@ -30,7 +30,7 @@ body {
 }
 .secondary-background{
     background-color: var(--color-secondary);
-    color: var(--color-highlight);
+    color: var(--color-light);
 }
 .dark-background{
     background-color: var(--color-dark);
